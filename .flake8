@@ -1,0 +1,16 @@
+[flake8]
+inline-quotes = "
+max-line-length = 79
+ignore = ANN002, ANN003
+exclude =
+    .git
+     __pycache__
+     .flake8
+     .black
+     .isort.cfg
+     .pre-commit-config.yaml
+     .gitignore
+     build
+     dist
+     .venv
+     venv
